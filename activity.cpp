@@ -16,7 +16,7 @@ struct mahasiswa
     string umur;
 };
 int main(){
-    Mahasiswa mhs[3];
+    mahasiswa mhs[3];
     for (int i = 0; i < 3; i++)
     {
       mahasiswa mhs;
@@ -33,13 +33,11 @@ int main(){
     cin  >> mhs.umur;
     cout << endl;
     }
+    cout << "\n nim : "<< mhs.nim;
+    cout << "\n nama : "<< mhs.nama;
+    cout << "\n alamat : "<< mhs.alamat.desa;
+    cout << "\n alamat : "<< mhs.alamat.kota;
+    cout << "\n umur : "<< mhs.umur;
 }
 
- int main() 
- {
- cout << "\n nim : "<< mhs.nim;
- cout << "\n nama : "<< mhs.nama;
- cout << "\n alamat : "<< mhs.alamat.desa;
- cout << "\n alamat : "<< mhs.alamat.kota;
- cout << "\n umur : "<< mhs.umur;
- }
+ 
