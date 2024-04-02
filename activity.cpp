@@ -34,13 +34,12 @@ int main(){
     cout << endl;
     }
     for (int i = 0; i < 3; i++){
-        
+    cout << "\n nim : "<< mhs[i].nim;
+    cout << "\n nama : "<< mhs[i].nama;
+    cout << "\n alamat : "<< mhs[i].alamat.desa;
+    cout << "\n alamat : "<< mhs[i].alamat.kota;
+    cout << "\n umur : "<< mhs[i].umur;
     }
-    cout << "\n nim : "<< mhs.nim;
-    cout << "\n nama : "<< mhs.nama;
-    cout << "\n alamat : "<< mhs.alamat.desa;
-    cout << "\n alamat : "<< mhs.alamat.kota;
-    cout << "\n umur : "<< mhs.umur;
 }
 
  
