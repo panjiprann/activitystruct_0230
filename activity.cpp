@@ -33,6 +33,9 @@ int main(){
     cin  >> mhs.umur;
     cout << endl;
     }
+    for (int i = 0; i < 3; i++){
+        
+    }
     cout << "\n nim : "<< mhs.nim;
     cout << "\n nama : "<< mhs.nama;
     cout << "\n alamat : "<< mhs.alamat.desa;
