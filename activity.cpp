@@ -15,6 +15,13 @@ struct mahasiswa
     DetailAlamat alamat;
     string umur;
 };
+int main(){
+    Mahasiswa mhs[3];
+    for (int i = 0; i < 3; i++)
+    {
+    
+    }
+}
 
  int main() 
  {
