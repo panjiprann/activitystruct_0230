@@ -6,7 +6,7 @@ struct DetailAlamat
 {
     string desa;
     string kota;
-};
+}
 
 struct mahasiswa
 {
@@ -39,7 +39,7 @@ int main(){
     cout << "\n alamat : "<< mhs[i].alamat.desa;
     cout << "\n alamat : "<< mhs[i].alamat.kota;
     cout << "\n umur : "<< mhs[i].umur;
-    
+    }
 }
 
  
